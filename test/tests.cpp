@@ -1,5 +1,6 @@
 #include "boost/locking_queue.hpp"
 #include <queue>
+#define BOOST_TEST_DYN_LINK
 #define BOOST_TEST_MODULE locking_queue_test
 #include <boost/test/unit_test.hpp>
 
